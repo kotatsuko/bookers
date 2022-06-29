@@ -11,6 +11,10 @@
   </head>
 
   <body>
+    <div class="text-success">
+      <%= flash[:notice] %>
+    </div>
+
     <%= yield %>
   </body>
 </html>
